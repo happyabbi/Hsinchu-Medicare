@@ -1,0 +1,21 @@
+{
+  "name": "hsinchu-hacker-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gene",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^5.0.1",
+    "async": "^2.6.0",
+    "async-file": "^2.0.2",
+    "express": "^4.16.2",
+    "images": "^3.0.1",
+    "node-cache": "^4.1.1",
+    "node-json-db": "^0.7.3",
+    "request": "^2.83.0"
+  }
+}

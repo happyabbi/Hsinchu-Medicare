@@ -1,0 +1,39 @@
+{
+    // 使用 IntelliSense 以得知可用的屬性。
+    // 暫留以檢視現有屬性的描述。
+    // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "pharmacyHandler",
+            "runtimeArgs": ["--harmony"],
+            "program": "${workspaceFolder}\\models\\handler\\pharmacyHandler.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "distance",
+            "runtimeArgs": ["--harmony"],
+            "program": "${workspaceFolder}\\models\\common\\distance.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "initDatabase",
+            "runtimeArgs": ["--harmony"],
+            "program": "${workspaceFolder}\\database\\initDatabase.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "server",
+            "runtimeArgs": ["--harmony"],
+            "program": "${workspaceFolder}\\server.js",
+            "env": {
+                "NODE_ENV": "development" //production,development
+            }
+        }
+    ]
+}
